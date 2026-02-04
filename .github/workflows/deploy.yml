@@ -46,7 +46,7 @@ jobs:
       # 5. Render new ECS task definition with updated image
       - name: Render ECS task definition
         id: task-def
-        uses: amazon-ecs-render-task-definition@v1
+        uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
           task-definition: task-definition.json
           container-name: ${{ env.CONTAINER_NAME }}
