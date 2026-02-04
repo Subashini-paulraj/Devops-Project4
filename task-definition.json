@@ -8,7 +8,7 @@
   "containerDefinitions": [
     {
       "name": "project4-demo1",
-      "image": "placeholder",
+      "image": "081382028090.dkr.ecr.us-east-1.amazonaws.com/devops-project4",
       "portMappings": [
         {
           "containerPort": 5000,
