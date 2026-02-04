@@ -4,7 +4,7 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::081382028090:user/github-actions-ecr-ecs",
+  "executionRoleArn": "arn:aws:iam::081382028090:role/ecsTaskExecutionRole1",
   "containerDefinitions": [
     {
       "name": "project4-demo1",
