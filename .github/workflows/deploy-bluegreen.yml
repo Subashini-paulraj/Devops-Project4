@@ -32,4 +32,5 @@ jobs:
         aws ecs update-service \
           --cluster ${{ secrets.ECS_CLUSTER }} \
           --service devops-project4-green \
+          --desired-count 1 \
           --force-new-deployment
