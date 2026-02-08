@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return f"""
-    <h1>🚀 DevOps Projects Dashboard</h1>
+    <h1>🚀 DevOps Projects Dashboard - Blue</h1>
 
     <p><b>Hostname:</b> {socket.gethostname()}</p>
     <p><b>Last Updated:</b> {datetime.utcnow()}</p>
