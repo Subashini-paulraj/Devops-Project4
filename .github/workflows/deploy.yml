@@ -43,12 +43,12 @@ jobs:
           docker tag $ECR_REPOSITORY:latest $IMAGE_URI
           docker push $IMAGE_URI
 
-     
+      
       # 6. Deploy ECS task definition
       - name: Deploy to Amazon ECS
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
-          task-definition: ${{ steps.task-def.outputs.task-definition }}
+          task-definition: task-definition.json
           service: ${{ env.ECS_SERVICE }}
           cluster: ${{ env.ECS_CLUSTER }}
           wait-for-service-stability: true
