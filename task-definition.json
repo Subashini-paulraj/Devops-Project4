@@ -7,7 +7,7 @@
   "executionRoleArn": "arn:aws:iam::081382028090:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "devops-prject4",
+      "name": "devops-project4",
       "image": "081382028090.dkr.ecr.us-east-1.amazonaws.com/devops-project4",
       "portMappings": [
         {
