@@ -31,5 +31,5 @@ jobs:
       run: |
         aws ecs update-service \
           --cluster ${{ secrets.ECS_CLUSTER }} \
-          --service service-green \
+          --service devops-project4-green \
           --force-new-deployment
