@@ -4,10 +4,10 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::081382028090:role/ecsTaskExecutionRole1",
+  "executionRoleArn": "arn:aws:iam::081382028090:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "project4-demo1",
+      "name": "devops-prjec4",
       "image": "081382028090.dkr.ecr.us-east-1.amazonaws.com/devops-project4",
       "portMappings": [
         {
